@@ -26,7 +26,8 @@ print(result,unans)
 
 # OUTPUT :
 
-![Screenshot (96)](https://github.com/ArpanBardhan/EX-7/assets/119405037/39f470d2-6847-48a8-83a8-b0da589de513)
+
+![7](https://github.com/JoshuaSamuel7/19CS406-EX-7/assets/118343296/0b16960d-9e6b-4d17-b957-a4dcbe5f42f7)
 
 
 # RESULT :
