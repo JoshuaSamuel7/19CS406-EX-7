@@ -1,6 +1,6 @@
 # EX-7 IMPLEMENTATION OF TRACEROUTE COMMAND
 
-## DATE : 17/04/2023
+## DATE : 19/04/2023
 
 ## AIM :
 To write the python program for simulating Traceroute command
@@ -17,7 +17,7 @@ otherwise it will sendNACK signal to client.
 6. Stop the program
 ```
 ## PROGRAM :
-```
+```PYTHON 3
 from scapy.all import*
 target = ["www.google.com"]
 result, unans = traceroute(target,maxttl=32)
