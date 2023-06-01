@@ -1,12 +1,12 @@
 # EX-7 IMPLEMENTATION OF TRACEROUTE COMMAND
 
-# DATE : 17/04/2023
+## DATE : 17/04/2023
 
-# AIM :
+## AIM :
 To write the python program for simulating Traceroute command
 
 
-# ALGORITHM :
+## ALGORITHM :
 ```
 1. Start the program.
 2. Get the frame size from the user.
@@ -16,7 +16,7 @@ To write the python program for simulating Traceroute command
 otherwise it will sendNACK signal to client.
 6. Stop the program
 ```
-# PROGRAM :
+## PROGRAM :
 ```
 from scapy.all import*
 target = ["www.google.com"]
@@ -24,11 +24,11 @@ result, unans = traceroute(target,maxttl=32)
 print(result,unans)
 ```
 
-# OUTPUT :
+## OUTPUT :
 
 
 ![7](https://github.com/JoshuaSamuel7/19CS406-EX-7/assets/118343296/0b16960d-9e6b-4d17-b957-a4dcbe5f42f7)
 
 
-# RESULT :
+## RESULT :
 Thus, the python program for simulating Traceroute command was successfully executed.
